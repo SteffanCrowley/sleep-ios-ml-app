@@ -11,6 +11,8 @@
 		9CA699CF28B28D0200B4A374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA699CE28B28D0200B4A374 /* ContentView.swift */; };
 		9CA699D128B28D0300B4A374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA699D028B28D0300B4A374 /* Assets.xcassets */; };
 		9CA699D428B28D0300B4A374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA699D328B28D0300B4A374 /* Preview Assets.xcassets */; };
+		9CA699DB28B2A2D600B4A374 /* Sleep IOS.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 9CA699DA28B2A2D600B4A374 /* Sleep IOS.mlproj */; };
+		9CA699DE28B2A35A00B4A374 /* Sleep IOS 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CA699DD28B2A35A00B4A374 /* Sleep IOS 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9CA699CE28B28D0200B4A374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CA699D028B28D0300B4A374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA699D328B28D0300B4A374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CA699DA28B2A2D600B4A374 /* Sleep IOS.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Sleep IOS.mlproj"; path = "../../../Sleep IOS.mlproj"; sourceTree = "<group>"; };
+		9CA699DD28B2A35A00B4A374 /* Sleep IOS 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Sleep IOS 1.mlmodel"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 				9CA699CC28B28D0200B4A374 /* Sleep_IOS_APPApp.swift */,
 				9CA699CE28B28D0200B4A374 /* ContentView.swift */,
 				9CA699D028B28D0300B4A374 /* Assets.xcassets */,
+				9CA699DD28B2A35A00B4A374 /* Sleep IOS 1.mlmodel */,
 				9CA699D228B28D0300B4A374 /* Preview Content */,
 			);
 			path = "Sleep-IOS-APP";
@@ -62,6 +67,7 @@
 		9CA699D228B28D0300B4A374 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				9CA699DA28B2A2D600B4A374 /* Sleep IOS.mlproj */,
 				9CA699D328B28D0300B4A374 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA699DB28B2A2D600B4A374 /* Sleep IOS.mlproj in Resources */,
 				9CA699D428B28D0300B4A374 /* Preview Assets.xcassets in Resources */,
 				9CA699D128B28D0300B4A374 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA699CF28B28D0200B4A374 /* ContentView.swift in Sources */,
+				9CA699DE28B2A35A00B4A374 /* Sleep IOS 1.mlmodel in Sources */,
 				9CA699CD28B28D0200B4A374 /* Sleep_IOS_APPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
